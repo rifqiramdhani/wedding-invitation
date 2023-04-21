@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -66,12 +66,12 @@ export default function Home() {
         <div id="header-carousel" className="carousel slide carousel-fade" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item position-relative active" style={{height: "100vh", minHeight: "400px"}}>
-              <img className="position-absolute w-100 h-100" src="/assets/img/carousel-1.jpg" style={{objectFit: "cover"}} />
+              <Image alt="Image" className="position-absolute w-100 h-100" src="/assets/img/carousel-1.jpg" style={{ objectFit: "cover" }} width={100} height={100} priority unoptimized={true} />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div className="p-3" style={{maxWidth: "900px"}} >
                     <h1 className="display-1 font-secondary text-white mt-n3 mb-md-4">Jack & Rose</h1>
                     <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
-                      <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: "2px"}} >We're getting married</h3>
+                      <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: "2px"}} >We&apos;re getting married</h3>
                     </div>
                     <button type="button" className="btn-play mx-auto" data-toggle="modal"
                       data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
@@ -81,12 +81,12 @@ export default function Home() {
                 </div>
             </div>
             <div className="carousel-item position-relative" style={{ height: "100vh", minHeight: "400px" }}>
-              <img className="position-absolute w-100 h-100" src="/assets/img/carousel-2.jpg" style={{objectFit: "cover"}} />
+              <Image alt="Image" className="position-absolute w-100 h-100" src="/assets/img/carousel-2.jpg" style={{ objectFit: "cover" }} width={100} height={100} priority unoptimized={true} />
                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                   <div className="p-3" style={{maxWidth: "900px"}}>
                     <h1 className="display-1 font-secondary text-white mt-n3 mb-md-4">Jack & Rose</h1>
                     <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
-                      <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: "2px"}}>We're getting married</h3>
+                      <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: "2px"}}>We&apos;re getting married</h3>
                     </div>
                     <button type="button" className="btn-play mx-auto" data-toggle="modal"
                       data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
@@ -148,12 +148,12 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-6 p-0" style={{ minHeight: "400px"}} >
-              <img className="position-absolute w-100 h-100" src="/assets/img/about-1.jpg" style={{objectFit: "cover"}} />
+              <Image alt="Image" className="position-absolute w-100 h-100" src="/assets/img/about-1.jpg" style={{objectFit: "cover"}} width={100} height={100} unoptimized={true} />
             </div>
           </div>
           <div className="row m-0">
             <div className="col-md-6 p-0" style={{ minHeight: "400px"}}>
-              <img className="position-absolute w-100 h-100" src="/assets/img/about-2.jpg" style={{objectFit: "cover"}} />
+              <Image alt="Image" className="position-absolute w-100 h-100" src="/assets/img/about-2.jpg" style={{objectFit: "cover"}} width={100} height={100} unoptimized={true} />
             </div>
             <div className="col-md-6 p-0 text-center text-md-left">
               <div className="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
@@ -183,7 +183,7 @@ export default function Home() {
           <div className="container timeline position-relative p-0">
             <div className="row">
               <div className="col-md-6 text-center text-md-right">
-                <img className="img-fluid mr-md-3" src="/assets/img/story-1.jpg" alt="" />
+                <Image alt="Image" className="img-fluid mr-md-3" src="/assets/img/story-1.jpg" width={100} height={100} unoptimized={true} />
               </div>
               <div className="col-md-6 text-center text-md-left">
                 <div className="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
@@ -202,12 +202,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-6 text-center text-md-left">
-                <img className="img-fluid ml-md-3" src="/assets/img/story-2.jpg" alt="" />
+                <Image alt="Image" className="img-fluid ml-md-3" src="/assets/img/story-2.jpg" width={100} height={100} unoptimized={true} />
               </div>
             </div>
             <div className="row">
               <div className="col-md-6 text-center text-md-right">
-                <img className="img-fluid mr-md-3" src="/assets/img/story-3.jpg" alt="" />
+                <Image alt="Image" className="img-fluid mr-md-3" src="/assets/img/story-3.jpg" width={100} height={100} unoptimized={true} />
               </div>
               <div className="col-md-6 text-center text-md-left">
                 <div className="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
@@ -226,7 +226,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-6 text-center text-md-left">
-                <img className="img-fluid ml-md-3" src="/assets/img/story-4.jpg" alt="" />
+                <Image alt="Image" className="img-fluid ml-md-3" src="/assets/img/story-4.jpg" width={100} height={100} unoptimized={true} />
               </div>
             </div>
           </div>
@@ -242,22 +242,22 @@ export default function Home() {
         </div>
         <div className="owl-carousel gallery-carousel">
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-1.jpg" alt="" width={"100%"}/>
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-1.jpg" width={100} height={100} unoptimized={true} />
           </div>
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-2.jpg" alt="" width={"100%"} />
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-2.jpg" width={100} height={100} unoptimized={true} />
           </div>
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-3.jpg" alt="" width={"100%"} />
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-3.jpg" width={100} height={100} unoptimized={true} />
           </div>
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-4.jpg" alt="" width={"100%"} />
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-4.jpg" width={100} height={100} unoptimized={true} />
           </div>
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-5.jpg" alt="" width={"100%"} />
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-5.jpg" width={100} height={100} unoptimized={true} />
           </div>
           <div className="gallery-item">
-            <img className="img-fluid w-100" src="/assets/img/gallery-6.jpg" alt="" width={"100%"} />
+            <Image alt="Image" className="img-fluid w-100" src="/assets/img/gallery-6.jpg" width={100} height={100} unoptimized={true} />
           </div>
         </div>
       </div>
@@ -278,7 +278,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6 border-right border-primary">
               <div className="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                <img className="img-fluid mb-4" src="/assets/img/event-1.jpg" alt="" />
+                <Image alt="Image" className="img-fluid mb-4" src="/assets/img/event-1.jpg" width={100} height={100} unoptimized={true} />
                   <h4 className="mb-3">The Reception</h4>
                   <p className="mb-2">123 Street, New York, USA</p>
                   <p className="mb-0">12:00AM - 13:00PM</p>
@@ -286,7 +286,7 @@ export default function Home() {
             </div>
             <div className="col-md-6">
               <div className="text-center text-md-left ml-md-3">
-                <img className="img-fluid mb-4" src="/assets/img/event-2.jpg" alt="" />
+                <Image alt="Image" className="img-fluid mb-4" src="/assets/img/event-2.jpg" width={100} height={100} unoptimized={true} />
                   <h4 className="mb-3">Wedding Party</h4>
                   <p className="mb-2">123 Street, New York, USA</p>
                   <p className="mb-0">12:00AM - 13:00PM</p>
@@ -315,7 +315,7 @@ export default function Home() {
           <div className="row portfolio-container">
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/groomsmen-1.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/groomsmen-1.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -330,7 +330,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item second">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/bridesmaid-1.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/bridesmaid-1.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -345,7 +345,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/groomsmen-2.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/groomsmen-2.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -360,7 +360,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item second">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/bridesmaid-2.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/bridesmaid-2.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -375,7 +375,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item first">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/groomsmen-3.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/groomsmen-3.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -390,7 +390,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4 col-md-6 mb-4 portfolio-item second">
               <div className="position-relative mb-2">
-                <img className="img-fluid w-100" src="/assets/img/bridesmaid-3.jpg" alt="" />
+                <Image alt="Image" className="img-fluid w-100" src="/assets/img/bridesmaid-3.jpg" width={100} height={100} unoptimized={true} />
                   <div className="bg-secondary text-center p-4">
                     <h4 className="mb-3">Full Name</h4>
                     <p className="text-uppercase">Best Friend</p>
@@ -439,7 +439,7 @@ export default function Home() {
                     </div>
                     <div className="form-group col-sm-6">
                       <select className="form-control bg-secondary border-0" style={{ height: "52px"}}>
-                        <option>I'm Attending</option>
+                        <option>I&apos;m Attending</option>
                         <option>All Events</option>
                         <option>Wedding Party</option>
                       </select>
