@@ -25,14 +25,14 @@ export default function Home() {
 
         <link href="/assets/css/style.css" rel="stylesheet" />
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/lib/easing/easing.min.js"></script>
-        <script src="/assets/lib/waypoints/waypoints.min.js"></script>
-        <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" defer ></script>
+        <script src="/assets/lib/easing/easing.min.js" defer ></script>
+        <script src="/assets/lib/waypoints/waypoints.min.js" defer ></script>
+        <script src="/assets/lib/owlcarousel/owl.carousel.min.js" defer ></script>
+        <script src="/assets/lib/isotope/isotope.pkgd.min.js" defer ></script>
 
-        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/main.js" defer ></script>
       </Head>
 
       <nav className="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
